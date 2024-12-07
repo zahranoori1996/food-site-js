@@ -81,11 +81,20 @@ foodPartyDivElm.appendChild(foodsFragment);
 function createUserBacketList(idFood){
   
    let findFood = listFoods.find((food)=>{
+    
     return food.id === idFood
    })
-
-userBasket.push(findFood);
-createShoppingCart(userBasket);
+//    console.log(findFood)
+   let isFoodBasket = userBasket.some((food)=>{
+    return food.id === idFood;
+   });
+   if(!isFoodBasket){
+       
+       userBasket.push(findFood);
+   }
+//    console.log(isFoodBasket)
+   
+   createShoppingCart(userBasket);
 clactotalPrice(userBasket)
 
 }
@@ -199,7 +208,7 @@ function clactotalPrice(userBasketArray){
     sumPrices.innerHTML = ` Total : $${sum}.00`;
 }
 function updateCount(foodId, newCount){
-    console.log(foodId, newCount);
+    // console.log(foodId, newCount);
     userBasket.forEach(function(food){
         if(food.id === foodId){
             food.count = newCount

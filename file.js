@@ -131,7 +131,7 @@ imgDark.addEventListener("click",darkModeHandler);
 imgLight.addEventListener("click",lightModeHanddler);
 
 window.addEventListener("scroll", function(){
-    console.log("object");
+    
     // scroll kojast
     let scrollTop = window.scrollY;
     // height page website
@@ -145,7 +145,7 @@ window.addEventListener("scroll", function(){
 
     customScroll.style.width = `${scrollPercentRonder}%`
 
-    console.log(scrollPercentRonder);
+    // console.log(scrollPercentRonder);
 
 })
 

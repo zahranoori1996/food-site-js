@@ -264,6 +264,11 @@ button:hover{
 .food-cards{
     margin-bottom: 5%;
 }
+.food-cards p{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
 .food-cards h3{
     margin: 5% 0;
     text-align: center;
