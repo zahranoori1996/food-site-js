@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "image": "./images/plate-1-300.png",
+        "nameFood": "Dietary pasta",
+        "description": "Suitable for barbies",
+        "price": 11,
+        "count": 1
+    },
+    {
+        "id": 2,
+        "image": "./images/steak-2-300.png",
+        "nameFood": "Lamb Steak",
+        "description": "Popular food",
+        "price": 49,
+        "count": 1
+    },
+    {
+        "id": 3,
+        "image": "./images/phtochini-300.png",
+        "nameFood": "Spicy Fettuccini",
+        "description": "A delicious Italian dish",
+        "price": 23,
+        "count": 1
+    },
+    {
+        "id": 4,
+        "image": "./images/spaghetti-300.png",
+        "nameFood": "Spaghetti",
+        "description": "Light and low calorie food",
+        "price": 19,
+        "count": 1
+    },
+    {
+        "id": 5,
+        "image": "./images/noodel-300.png",
+        "nameFood": "Noodel Italy",
+        "description": "Noodel is very good",
+        "price": 13,
+        "count": 1
+    },
+    {
+        "id": 6,
+        "image": "./images/Tomato-300.png",
+        "nameFood": "Mixed Food",
+        "description": "Eggplant and tomato",
+        "price": 21,
+        "count": 1
+    },
+    {
+        "id": 7,
+        "image": "./images/salad-300.png",
+        "nameFood": "Salad food",
+        "description": "Low fat salad",
+        "price": 17,
+        "count": 1
+    },
+    {
+        "id": 8,
+        "image": "./images/pasta-dumplings-300.png",
+        "nameFood": "pasta dumplings",
+        "description": "Meatballs and parmesan sauce",
+        "price": 37,
+        "count": 1
+    },
+    {
+        "id": 9,
+        "image": "./images/Alfredo-pasta-300.png",
+        "nameFood": "Alfredo pasta",
+        "description": "Pasta for restaurants",
+        "price": 31,
+        "count": 1
+    },
+    {
+        "id": 10,
+        "image": "./images/pasta-coort-300.png",
+        "nameFood": "carrot Pasta",
+        "description": "Pureed carrot flavor",
+        "price": 28,
+        "count": 1
+    }
+]
