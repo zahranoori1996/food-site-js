@@ -193,7 +193,6 @@ function updateBasketHeader(customerShoppingList){
         bottom: 25px;`
         showCountShoppingCart.innerHTML = userBasket.length;
         countBasketCart.append(showCountShoppingCart);
-
     }else if(customerShoppingList.length == 0){
         showCountShoppingCart.style.display = "none";
         console.log(customerShoppingList.length);
