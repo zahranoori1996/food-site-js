@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "nameFood": "Dietary pasta",
+        "countLiker": 0
+        
+    },
+    {
+        "id": 2,
+        "nameFood": "Lamb Steak",
+        "countLiker": 0
+    
+    },
+    {
+        "id": 3,
+        "nameFood": "Spicy Fettuccini",
+        "countLiker": 0
+       
+    },
+    {
+        "id": 4,
+        "nameFood": "Spaghetti",
+        "countLiker": 0
+    },
+    {
+        "id": 5,
+        "nameFood": "Noodel Italy",
+        "countLiker": 0
+    },
+    {
+        "id": 6,
+        "nameFood": "Mixed Food",
+        "countLiker": 0
+    },
+    {
+        "id": 7,
+        "nameFood": "Salad food",
+        "countLiker": 0
+    },
+    {
+        "id": 8,
+        "nameFood": "pasta dumplings",
+        "countLiker": 0
+    },
+    {
+        "id": 9,
+        "nameFood": "Alfredo pasta",
+        "countLiker": 0
+    },
+    {
+        "id": 10,
+        "nameFood": "carrot Pasta",
+        "countLiker": 0
+    }
+]

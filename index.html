@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <link rel="icon" type="image/png" sizes="32x32" href="./images/foody-logo.png">
     <title> Italian restaurant Refactor Fragment</title>
 </head>
@@ -19,10 +21,10 @@
     <div id="scroll"></div>
     <div class="contanier">
         <div id="module">
-        
+
             <p>Due to the use of the Firebase database and the sanctions on Iran, please use a VPN to view the chart
                 correctly and dynamically.</p>
-                <div>X</div>
+            <div>X</div>
         </div>
         <header class="header-website">
             <!-- navbar -->
@@ -278,6 +280,48 @@
 
         </main>
 
+        <!-- Survey -->
+
+        <!-- <section id="chart">
+            <canvas id="canvas-chart" width="900" height="400"></canvas>
+            <button id="btn-change-chart">change chart</button>
+        </section> -->
+
+        <div class="environment-chart">
+            <div class="chart-container">
+                <canvas id="canvas-chart" width="900" height="400"></canvas>
+
+            </div>
+            <!-- <div class="controls">
+                <select id="chart-type" class="select">
+                    <option value="bar">bar</option>
+                    <option value="line">line</option>
+                    <option value="pie">pie</option>
+                    <option value="doughnut">doughnut</option>
+                    <option value="radar">radar</option>
+                    <option value="polarArea">polarArea</option> -->
+                    <!-- <option value="bubble">bubble</option> -->
+                <!-- </select> -->
+                <!-- <select id="chart-type" class="select">
+                    <option value="Dietary pasta">Dietary pasta</option>
+                    <option value="Lamb Steak">Lamb Steak</option>
+                    <option value="Spicy Fettuccini">Spicy Fettuccini</option>
+                    <option value="Spaghetti">Spaghetti</option>
+                    <option value="Noodel Italy">Noodel Italy</option>
+                    <option value="Mixed Food">Mixed Food</option>
+                    <option value="Salad food">Salad food</option>
+                    <option value="pasta dumplings">pasta dumplings</option>
+                    <option value="Alfredo pasta">Alfredo pasta</option>
+                    <option value="carrot Pasta">carrot Pasta</option>
+                </select> -->
+
+                <!-- <input type="text" class="input" id="label-input" placeholder="Title"> -->
+                <!-- <input type="number" class="input" id="data-input" placeholder="value"> -->
+                <!-- <button onclick="addData()" class="btn"> Added Chart </button> -->
+                <!-- <button id="btn-change" class="btn"> Change Type Chart  </button> -->
+            </div>
+
+        </div>
         <!-- shopping cart -->
         <div class="shoppnig-cart" id="cart">
             <h2 class="title-cart">Shopping Cart List</h2>
@@ -310,7 +354,6 @@
             <button id="all-remove-shopping-cart"> clear shopping bascket</button>
         </div>
 
-        <!-- Survey -->
 
 
         <!-- footer website -->
@@ -384,7 +427,7 @@
     <script src="./file.js"></script>
     <script src="T235.js"></script>
     <script src="worrning.js"></script>
-    <script type="module" src="./chart.js"></script>
+    <script  src="./chart.js"></script>
 </body>
 
 </html>
