@@ -492,8 +492,9 @@ button:hover{
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
-.chart-container{
-
+.chart-container h1{
+  text-align: center;
+  padding: 20px 0;
 }
 #canvas-container{
 
